@@ -10,7 +10,7 @@ before_install:
   - set -e
   - git config --global user.email "travis@incptm.com"
   - git config --global user.name "travis"
-  - openssl aes-256-cbc -K $encrypted_5c91358fafd9_key -iv $encrypted_5c91358fafd9_iv -in id_rsa.enc -out id_rsa -d
+  - openssl aes-256-cbc -K $encrypted_dbf87db37731_key -iv $encrypted_dbf87db37731_iv -in id_rsa.enc -out id_rsa -d
   - mv id_rsa ~/.ssh
   - chmod 600 ~/.ssh/id_rsa
 install:
@@ -19,4 +19,4 @@ script:
   - set -e
   - rake
   - export JEKYLL_ENV=production
-  - jgd -u git@github.com:teamed/incptm.github.io.git
+  - jgd -u git@github.com:incptm/website.git
