@@ -1,0 +1,152 @@
+---
+---
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+$red: #fa2323;
+$serif: 'EB Garamond', 'Times New Roman', 'Serif';
+$sans: 'Open Sans Condensed', 'Verdana', 'Sans Serif';
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  font-family: $serif;
+  margin-bottom: 4em;
+}
+
+.top {
+  background-color: black;
+  height: 5em;
+  width: 100%;
+  line-height: 5em;
+  margin-bottom: .5em;
+
+  .logo {
+    width: 260px;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+}
+
+.menu {
+  font-size: 18px;
+  font-family: $sans;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.wrapper {
+  width: 680px;
+  padding: 0 1em;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.disqus {
+  width: 900px;
+  max-width: 100%;
+  padding: 0 .5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: black;
+
+  &:visited {
+    color: inherit;
+  }
+}
+
+figure {
+  position: relative;
+  img {
+    max-width: 100%;
+  }
+  figcaption {
+    position: absolute;
+    font-family: $sans;
+    padding: 0 .3em;
+    top: 0;
+    right: 0;
+    font-size: .8em;
+    color: lighten(black, 60);
+    background-color: white;
+  }
+}
+
+ul.inline {
+  li {
+    display: inline;
+    margin: 0 .2em;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.front {
+  margin-top: 2em;
+
+  .title {
+    font-size: 1.8em;
+    line-height: 1em;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.2em;
+  margin-top: 1.4em;
+  line-height: 1em;
+}
+
+.subline {
+  font-family: $sans;
+  font-size: .8em;
+  margin: .5em 0;
+}
+
+article {
+  p {
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.3em;
+    margin: .5em 0;
+    &:first-child {
+      text-indent: 0;
+    }
+  }
+}
+
+footer {
+  text-align: center;
+  margin: 2em 0;
+  font-family: $sans;
+  font-size: .8em;
+}
+
+.quote {
+  font-size: 1.4em;
+  span {
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+}

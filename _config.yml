@@ -1,0 +1,41 @@
+title: Умно о запретном
+email: team@incptm.com
+description: Умно о запретном
+baseurl: ""
+url: "http://www.incptm.com"
+twitter_username: incptm
+github_username: incptm
+markdown: kramdown
+author:
+  name: "Incptm"
+  email: team@incptm.com
+encoding: utf-8
+timezone: Europe/Kiev
+permalink: :year-:month-:day-:title.html
+exclude:
+  - README.md
+  - Gemfile.lock
+  - Gemfile
+  - Rakefile
+  - LICENSE.txt
+  - id_rsa.enc
+
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-bits
+
+paginate: 8
+paginate_path: "p/:num"
+excerpt_separator: <!--more-->
+
+feed:
+  title: www.incptm.com
+  subtitle: Умно о запретном
+  path: rss.xml
+
+sass:
+  style: compressed
+  deploy_style: compressed
+  compile_in_place: false

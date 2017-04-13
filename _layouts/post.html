@@ -1,0 +1,103 @@
+---
+layout: default
+---
+
+<section itemscope="" itemtype="http://schema.org/BlogPosting">
+  <div itemprop="review" itemscope="" itemtype="http://schema.org/Review">
+    <meta itemprop="author" content="{{ site.author.name }}">
+    <meta itemprop="itemReviewed" content="{{ site.url }}{{ page.url }}">
+    <div itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating">
+      <meta itemprop="ratingValue" content="9"/>
+      <meta itemprop="bestRating" content="10"/>
+    </div>
+  </div>
+  <div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+    <meta itemprop="url" content="/images/logo.png"/>
+    <meta itemprop="height" content="1024"/>
+    <meta itemprop="width" content="1024"/>
+  </div>
+  <div itemscope="" itemprop="publisher" itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="incptm.com"/>
+    <div itemprop="logo" itemscope="" itemtype="http://schema.org/ImageObject">
+      <meta itemprop="url" content="/images/logo.png"/>
+      <meta itemprop="height" content="1024"/>
+      <meta itemprop="width" content="1024"/>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <header>
+      <h1 itemprop="name headline mainEntityOfPage">{{ page.title }}</h1>
+      <ul class="inline subline">
+        <li itemscope="" itemprop="author" itemtype="http://schema.org/Person">
+          <span itemprop="name">{{ page.author }}</span>
+        </li>
+        <li>
+          <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">
+            {% assign m = page.date | date: "%-m" %}
+            {{ page.date | date: "%-d" }}
+            {% case m %}
+              {% when '1' %}января
+              {% when '2' %}февраля
+              {% when '3' %}марта
+              {% when '4' %}апреля
+              {% when '5' %}мая
+              {% when '6' %}июня
+              {% when '7' %}июля
+              {% when '8' %}августа
+              {% when '9' %}сентября
+              {% when '10' %}октября
+              {% when '11' %}ноября
+              {% when '12' %}декабря
+            {% endcase %}
+            {{ page.date | date: "%Y" }}
+          </time>
+        </li>
+        <li>
+          <i class="icon icon-comments"></i>
+          <a href="{{ site.url }}{{ page.url }}#disqus_thread" itemprop="discussionUrl">комментарии</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <article class="main" itemprop="articleBody">
+        {{ content }}
+      </article>
+    </main>
+  </div>
+
+  <div class="disqus" role="complementary">
+    <div id="disqus_thread" class="disqus-thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url = document.location.href.split('?')[0].split('#')[0];
+        this.page.identifier = this.page.url;
+      };
+      (function() {
+        var d = document, s = d.createElement('script');
+        s.src = '//incptm-com.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>
+      <div>
+        <p class="red">
+          JavaScript is disabled in your browser,
+          that's why you can't see comments under this post.
+        </p>
+      </div>
+    </noscript>
+  </div>
+
+  <div class="wrapper">
+    <footer>
+      &copy;
+      <span itemprop="copyrightYear">2017</span>
+      <span itemscope="" itemprop="copyrightHolder" itemtype="http://schema.org/Person">
+        <span itemprop="name">incptm.com</span>
+      </span>
+    </footer>
+  </div>
+
+</section>

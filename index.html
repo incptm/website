@@ -1,0 +1,103 @@
+---
+layout: default
+title: "Incptm"
+description: |
+  О любви...
+keywords:
+  - секс
+  - любовь
+  - счастье
+---
+
+<div class="wrapper">
+  <div itemscope="" itemtype="http://schema.org/Blog">
+  {% for post in paginator.posts %}
+    <section class="front" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+        <meta itemprop="url" content="/images/logo.png"/>
+        <meta itemprop="height" content="1024"/>
+        <meta itemprop="width" content="1024"/>
+      </div>
+      <div itemscope="" itemprop="author" itemtype="http://schema.org/Person">
+        <meta itemprop="name" content="{{ post.author }}"/>
+      </div>
+      <div itemscope="" itemprop="publisher" itemtype="http://schema.org/Organization">
+        <meta itemprop="name" content="incptm.com"/>
+        <div itemprop="logo" itemscope="" itemtype="http://schema.org/ImageObject">
+          <meta itemprop="url" content="/images/logo.png"/>
+          <meta itemprop="height" content="1024"/>
+          <meta itemprop="width" content="1024"/>
+        </div>
+      </div>
+      <div>
+        <a href="{{ post.url }}" class="title">
+          <span itemprop="name headline mainEntityOfPage">{{ post.title }}</span>
+        </a>
+        <ul class="inline subline">
+          <li>{{ post.author }}</li>
+          <li>
+            <time itemprop="datePublished dateModified" datetime="{{ post.date | date_to_xmlschema }}">
+              {% assign m = post.date | date: "%-m" %}
+              {{ post.date | date: "%-d" }}
+              {% case m %}
+                {% when '1' %}января
+                {% when '2' %}февраля
+                {% when '3' %}марта
+                {% when '4' %}апреля
+                {% when '5' %}мая
+                {% when '6' %}июня
+                {% when '7' %}июля
+                {% when '8' %}августа
+                {% when '9' %}сентября
+                {% when '10' %}октября
+                {% when '11' %}ноября
+                {% when '12' %}декабря
+              {% endcase %}
+              {{ post.date | date: "%Y" }}
+            </time>
+          </li>
+          <!--
+          <li>
+            <a href="{{ site.url }}{{ post.url }}#disqus_thread" itemprop="discussionUrl">комментарии</a>
+          </li>
+          -->
+        </ul>
+        <article class="main" itemprop="description">
+          {{ post.excerpt }}
+        </article>
+        <a href="{{ post.url }}" itemprop="url">
+          Читать далее...
+        </a>
+      </div>
+    </section>
+  {% endfor %}
+  </div>
+</div>
+
+<!--
+<div class="wrapper">
+  <footer>
+    <div class="pagination">
+      <div class="left">
+        {% if paginator.previous_page %}
+          {% if paginator.previous_page == 1 %}
+            <a href="/"><i class="icon icon-fast-backward"></i></a>
+          {% else %}
+            <a href="/p/{{ paginator.previous_page }}"><i class="icon icon-fast-backward"></i></a>
+          {% endif %}
+        {% else %}
+          <span class="mute"><i class="icon icon-fast-backward"></i></span>
+        {% endif %}
+      </div>
+      стр. {{ paginator.page }} из {{ paginator.total_pages }}
+      <div class="right">
+        {% if paginator.next_page %}
+          <a href="/p/{{ paginator.next_page }}"><i class="icon icon-fast-forward"></i></a>
+        {% else %}
+          <span class="mute"><i class="icon icon-fast-forward"></i></span>
+        {% endif %}
+      </div>
+    </div>
+  </footer>
+</div>
+-->

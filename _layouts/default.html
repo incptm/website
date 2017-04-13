@@ -1,0 +1,78 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru" itemscope="" itemtype="http://schema.org/WebPage">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="description" content="{{ page.description | xml_escape }}" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"/>
+    <meta name="og:site_name" content="{{ site.author.name }}"/>
+    <meta name="og:description" property="twitter:description" content="{{ page.description }}" />
+    <meta name="twitter:creator" content="@incptm"/>
+    <meta name="twitter:site" content="@incptm"/>
+    <meta name="twitter:title" property="og:title" content="{{ page.title }}"/>
+    <meta name="twitter:description" property="og:description" content="{{ page.description }}"/>
+    <meta name="twitter:url" property="og:url" content="{{ site.url }}{{ page.url }}"/>
+    <link rel="shortcut icon" href="http://www.incptm.com/favicon.ico"/>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/main.css"/>
+    {{ page | jb_picture_head }}
+  </head>
+  <body>
+    <header class="top center">
+      <div class="wrapper">
+        <a href="/">
+          <img src="/images/logo-white.svg" class="logo" alt="@incptm"/>
+        </a>
+      </div>
+    </header>
+    <header class="menu">
+      <div class="wrapper center">
+        <nav>
+          <ul class="inline">
+            <li><a href="https://twitter.com/intent/follow?screen_name=incptm" rel="nofollow"
+              title="Читайте нас в Twitter">Twitter</a></li>
+            <li><a href="/rss.xml"
+              title="RSS лента">RSS</a></li>
+            <li><a href="https://www.facebook.com/incptm" rel="nofollow"
+              title="Читайте нас в Facebook">Facebook</a></li>
+            <li><a href="https://www.instagram.com/incptm/" rel="nofollow"
+              title="Смотрите нас в Instagram">Instagram</a></li>
+          </ul>
+          <ul class="inline">
+            <li><a href="/"
+              title="Главная страница">Главная</a></li>
+            <!--
+            <li><a href="/contents.html"
+              title="Все {{ site.posts.size }} статьи">Содержание</a></li>
+            -->
+          </ul>
+        </nav>
+        <!--
+        <div class="search">
+          <form method="get" action="https://www.google.com/search">
+            <input name="sitesearch" value="www.incptm.com" type="hidden"/>
+            <input type="text" id="search-query" class="field field-text"
+              name="q" placeholder="Поиск..." autocomplete="off"/>
+            <input type="hidden" title="найти через Google" alt="найти через Google"/>
+          </form>
+        </div>
+        -->
+      </div>
+    </header>
+    {{ content }}
+    <script>var disqus_shortname = 'incptm-com';</script>
+    <script id="dsq-count-scr" src="//incptm-com.disqus.com/count.js" async="async"></script>
+    {% if jekyll.environment == "production" %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-1963507-51', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+  </body>
+</html>
