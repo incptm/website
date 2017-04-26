@@ -3,11 +3,9 @@ layout: post
 date: 2017-04-21
 title: "Давай поженимся"
 description: |
-  Иррумация — одна из форм совершения проникающего полового сношения
-  через выполнении активных толчковых движений половым членом
-  в ротовую полость, глотку и горло партнёра.
+  ...
 author: Kali
-tags: книги
+tags: свадьба
 image: /images/2017/04/saturno-devorando-a-su-hijo.jpg
 jb_picture:
   caption: Saturno devorando a su hijo (1823) by Francisco de Goya
