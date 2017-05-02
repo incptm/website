@@ -7,7 +7,7 @@ description: |
   через выполнении активных толчковых движений половым членом
   в ротовую полость, глотку и горло партнёра.
 author: Kali
-tags: книги
+tags: иррумация
 image: /images/2017/04/la-femme-au-perroquet.jpg
 jb_picture:
   caption: La Femme au perroquet (1866) by Gustave Courbet
