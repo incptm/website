@@ -8,8 +8,10 @@ $red: #fa2323;
 $serif: 'EB Garamond', 'Times New Roman', 'Serif';
 $sans: 'Open Sans Condensed', 'Verdana', 'Sans Serif';
 
+$threshold: 800px;
+
 %desktop-only {
-  @media all and (max-width: 800px) {
+  @media all and (max-width: $threshold) {
     display: none;
   }
 }
@@ -89,7 +91,6 @@ figure {
     width: 100%;
   }
   figcaption {
-    @extend %desktop-only;
     position: absolute;
     font-family: $sans;
     padding: 0 .3em;
@@ -98,6 +99,12 @@ figure {
     font-size: .8em;
     color: lighten(black, 60);
     background-color: white;
+
+    @media all and (max-width: $threshold) {
+      position: relative;
+      background-color: inherit;
+      padding: 0;
+    }
   }
 }
 
