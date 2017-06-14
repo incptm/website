@@ -152,6 +152,18 @@ footer {
   margin: 2em 0;
   font-family: $sans;
   font-size: .8em;
+
+  .paginator {
+    font-size: 1.2em;
+
+    .muted {
+      color: lighten(black, 70);
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
 }
 
 .quote {

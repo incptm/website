@@ -74,30 +74,24 @@ keywords:
   </div>
 </div>
 
-<!--
 <div class="wrapper">
   <footer>
-    <div class="pagination">
-      <div class="left">
-        {% if paginator.previous_page %}
-          {% if paginator.previous_page == 1 %}
-            <a href="/"><i class="icon icon-fast-backward"></i></a>
-          {% else %}
-            <a href="/p/{{ paginator.previous_page }}"><i class="icon icon-fast-backward"></i></a>
-          {% endif %}
+    <p class="paginator">
+      {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+          <a href="/">&#x25c0;</a>
         {% else %}
-          <span class="mute"><i class="icon icon-fast-backward"></i></span>
+          <a href="/p/{{ paginator.previous_page }}">&#x25c4;</a>
         {% endif %}
-      </div>
-      стр. {{ paginator.page }} из {{ paginator.total_pages }}
-      <div class="right">
-        {% if paginator.next_page %}
-          <a href="/p/{{ paginator.next_page }}"><i class="icon icon-fast-forward"></i></a>
-        {% else %}
-          <span class="mute"><i class="icon icon-fast-forward"></i></span>
-        {% endif %}
-      </div>
-    </div>
+      {% else %}
+        <span class="muted">&#x25c0;</span>
+      {% endif %}
+      страница {{ paginator.page }} из {{ paginator.total_pages }}
+      {% if paginator.next_page %}
+        <a href="/p/{{ paginator.next_page }}">&#x25b6;</a>
+      {% else %}
+        <span class="muted">&#x25b6;</span>
+      {% endif %}
+    </p>
   </footer>
 </div>
--->
