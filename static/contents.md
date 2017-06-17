@@ -8,7 +8,7 @@ description: |
   опубликованных, начиная с марта 2017-го года.
 ---
 
-<!-- Всего: {{ site.posts.size }}. -->
+Всего опубликовано статей: {{ site.posts.size }}.
 
 {% for post in site.posts %}
   <div style="margin-bottom:1.2em">
