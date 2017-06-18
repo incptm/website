@@ -14,7 +14,7 @@ description: |
 [iTunes](https://itunes.apple.com/us/podcast/inceptum/id1247429731).
 Если хотите в гости, пишите на [podcast@incptm.com](mailto:podcast@incptm.com).
 
-<img src="https://i1.sndcdn.com/artworks-000227887346-ovrqmd-t500x500.jpg" class="podcast-thumb"/>
+<img src="https://i1.sndcdn.com/artworks-228288601-cgz8zn-t500x500.jpg" class="podcast-thumb"/>
 [#3: Курортный роман](/podcast/2017/3.html) (40 мин).
 Роман на курорте, измена или нет, честность в отношениях или ее отсутствие.
 Участники: Ника (ведущая), Ната (гость), Лада, Георгий.
