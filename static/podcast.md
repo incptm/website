@@ -10,8 +10,11 @@ description: |
 ---
 
 Мы записываем новый эпизод раз в неделю и публикуем по воскресеньям.
-Слушайте нас на [SoundCloud](https://soundcloud.com/incptm),
-[iTunes](https://itunes.apple.com/us/podcast/inceptum/id1247429731).
+Подпишитесь на наш [RSS](http://feeds.soundcloud.com/users/soundcloud:users:310435414/sounds.rss).
+Слушайте нас на
+[SoundCloud](https://soundcloud.com/incptm),
+[iTunes](https://itunes.apple.com/us/podcast/inceptum/id1247429731),
+[Android](http://feeds.soundcloud.com/users/soundcloud:users:310435414/sounds.rss).
 Если хотите в гости, пишите на [podcast@incptm.com](mailto:podcast@incptm.com).
 
 <img src="https://i1.sndcdn.com/artworks-000228288593-cgz8zn-t500x500.jpg" class="podcast-thumb"/>
