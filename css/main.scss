@@ -10,6 +10,13 @@ $sans: 'Open Sans Condensed', 'Verdana', 'Sans Serif';
 
 $threshold: 800px;
 
+%unprintable {
+  @media print {
+    display: none !important;
+    visibility: hidden;
+  }
+}
+
 %desktop-only {
   @media all and (max-width: $threshold) {
     display: none;
@@ -30,6 +37,7 @@ body {
 }
 
 .top {
+  @extend %unprintable;
   background-color: black;
   background-image: url('/images/leather.jpg');
   background-size: 100% auto;
@@ -46,7 +54,12 @@ body {
   }
 }
 
+.unprintable {
+  @extend %unprintable;
+}
+
 .menu {
+  @extend %unprintable;
   font-size: 18px;
   font-family: $sans;
 }
@@ -68,6 +81,7 @@ body {
 }
 
 .disqus {
+  @extend %unprintable;
   width: 900px;
   max-width: 100%;
   padding: 0 .5em;
@@ -85,6 +99,7 @@ a {
 }
 
 figure {
+  @extend %unprintable;
   position: relative;
   img {
     max-width: 100%;
