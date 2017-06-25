@@ -17,10 +17,16 @@ description: |
 [Android](http://subscribeonandroid.com/feeds.soundcloud.com/users/soundcloud:users:310435414/sounds.rss).
 Если хотите в гости, пишите на [podcast@incptm.com](mailto:podcast@incptm.com).
 
+<img src="https://i1.sndcdn.com/artworks-000228318667-ggb5zh-t500x500.jpg" class="podcast-thumb"/>
+[#4: Укрощение строптивого](/podcast/2017/4.html) (43 мин).
+Фильм "Укрощение строптивого" и наши выводы из модели поведения его персонажей.
+Участники: Доктор (гость), Георгий (ведущий), Лада, Ника.
+Записано: 14 июня 2017.
+
 <img src="https://i1.sndcdn.com/artworks-000228288593-cgz8zn-t500x500.jpg" class="podcast-thumb"/>
 [#3: Курортный роман](/podcast/2017/3.html) (40 мин).
 Роман на курорте, измена или нет, честность в отношениях или ее отсутствие.
-Участники: Ника (ведущая), Ната (гость), Лада, Георгий.
+Участники: Ната (гость), Ника (ведущая), Лада, Георгий.
 Записано: 13 июня 2017.
 
 <img src="https://i1.sndcdn.com/artworks-000227887346-ovrqmd-t500x500.jpg" class="podcast-thumb"/>
