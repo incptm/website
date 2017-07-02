@@ -17,6 +17,12 @@ description: |
 [Android](http://subscribeonandroid.com/feeds.soundcloud.com/users/soundcloud:users:310435414/sounds.rss).
 Если хотите в гости, пишите на [podcast@incptm.com](mailto:podcast@incptm.com).
 
+<img src="" class="podcast-thumb"/>
+[#5: Укрощение строптивого](/podcast/2017/4.html) (43 мин).
+Фильм "Укрощение строптивого" и наши выводы из модели поведения его персонажей.
+Участники: Доктор (гость), Георгий (ведущий), Лада, Ника.
+Записано: 14 июня 2017.
+
 <img src="https://i1.sndcdn.com/artworks-000228318667-ggb5zh-t500x500.jpg" class="podcast-thumb"/>
 [#4: Укрощение строптивого](/podcast/2017/4.html) (43 мин).
 Фильм "Укрощение строптивого" и наши выводы из модели поведения его персонажей.
