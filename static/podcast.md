@@ -17,6 +17,13 @@ description: |
 [Android](http://subscribeonandroid.com/feeds.soundcloud.com/users/soundcloud:users:310435414/sounds.rss).
 Если хотите в гости, пишите на [podcast@incptm.com](mailto:podcast@incptm.com).
 
+<img src="/images/2017/07/portret-lopuhinoj.jpg" class="podcast-thumb"/>
+[#7: Искусство соблазнения с Романом Журавиным](/podcast/2017/7.html) (57 мин).
+Беседуем со специалистом в области знакомств,
+соблазнения, секса, и женских оргазмов.
+Участники: Роман Журавин (гость), Ника (ведущая), Лада, Георгий.
+Записано: 2 июля 2017.
+
 <img src="/images/2017/06/podcast-5.jpg" class="podcast-thumb"/>
 [#5: Тантрическая любовь с Ольгой Черенок](/podcast/2017/5.html) (49 мин).
 Тантрические практики, любовь к ближнему, вибрации и энергии,
