@@ -17,7 +17,7 @@ description: |
 [Android](http://subscribeonandroid.com/feeds.soundcloud.com/users/soundcloud:users:310435414/sounds.rss).
 Если хотите в гости, пишите на [podcast@incptm.com](mailto:podcast@incptm.com).
 
-<img src="/images/2017/07/portret-lopuhinoj.jpg" class="podcast-thumb"/>
+<img src="/images/2017/07/in-bed-the-kiss.jpg" class="podcast-thumb"/>
 [#8: Семь аспектов секса с Дмитрием Соломатиным](/podcast/2017/8.html) (50 мин).
 Обсуждаем секс и его семь аспектов с психологом
 и сексологом из Украины Дмитрием Соломатиным.
