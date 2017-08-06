@@ -17,6 +17,14 @@ description: |
 [Android](http://subscribeonandroid.com/feeds.soundcloud.com/users/soundcloud:users:310435414/sounds.rss).
 Если хотите в гости, пишите на [podcast@incptm.com](mailto:podcast@incptm.com).
 
+<img src="/images/2017/07/dance.jpg" class="podcast-thumb"/>
+[#9: В гостях у Sharadio](/podcast/2017/9.html) (65 мин).
+Мы в гостях у [Sharadio](https://sharadiomail.wixsite.com/home), обсуждаем очень необычный
+и очень интересный формат семейных отношений.
+Участники: Хозяйка (гостья), Боря (гость), Лада (ведущая), Георгий.
+<br/>
+Записано: 28 июля 2017.
+
 <img src="/images/2017/07/in-bed-the-kiss.jpg" class="podcast-thumb"/>
 [#8: Дмитрий Соломатин о семи аспектах секса](/podcast/2017/8.html) (50 мин).
 Обсуждаем секс и его семь аспектов с психологом
