@@ -17,6 +17,14 @@ description: |
 [Android](http://subscribeonandroid.com/feeds.soundcloud.com/users/soundcloud:users:310435414/sounds.rss).
 Если хотите в гости, пишите на [podcast@incptm.com](mailto:podcast@incptm.com).
 
+<img src="/images/2017/08/composition-no-vii.jpg" class="podcast-thumb"/>
+[#10: Телесно-ориентированная терапия с Ириной Сукачевой](/podcast/2017/10.html) (49 мин).
+Лечение проблем души через контакт с телом, альтернатива классической
+терапии с психологом, опыт практикующего терапевта.
+Участники: Ирина Сукачева (гостья), Лада (ведущая), Георгий.
+<br/>
+Записано: 30 июля 2017.
+
 <img src="/images/2017/07/dance.jpg" class="podcast-thumb"/>
 [#9: В гостях у Sharadio](/podcast/2017/9.html) (65 мин).
 Мы в гостях у [Sharadio](https://sharadiomail.wixsite.com/home), обсуждаем очень необычный
