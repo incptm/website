@@ -17,6 +17,15 @@ description: |
 [Android](http://subscribeonandroid.com/feeds.soundcloud.com/users/soundcloud:users:310435414/sounds.rss).
 Если хотите в гости, пишите на [podcast@incptm.com](mailto:podcast@incptm.com).
 
+<img src="/images/2017/08/udnie.jpg" class="podcast-thumb"/>
+[#12: Чего хочет мужчина от женщины?](/podcast/2017/11.html) (74 мин).
+Чего хочет и ожидает мужчина от женщины и как женщина может
+этим ожиданиями соотвествовать, должна ли, и к чему приводят
+так часто встречающиеся несоответствия.
+Участники: Лада (ведущая), Георгий.
+<br/>
+Записано: 30 августа 2017.
+
 <img src="/images/2017/08/couple-in-the-woods.jpg" class="podcast-thumb"/>
 [#11: Интим фитнес с Верой Кобец](/podcast/2017/11.html) (45 мин).
 Здоровье и сексуальное благополучие пары, как оказалось,
