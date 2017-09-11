@@ -17,7 +17,7 @@ description: |
 [Android](http://subscribeonandroid.com/feeds.soundcloud.com/users/soundcloud:users:310435414/sounds.rss).
 Если хотите в гости, пишите на [podcast@incptm.com](mailto:podcast@incptm.com).
 
-<img src="/images/2017/08/portuguese-woman.jpg" class="podcast-thumb"/>
+<img src="/images/2017/09/portuguese-woman.jpg" class="podcast-thumb"/>
 [#13: Мелинда и Лада о женском](/podcast/2017/13.html) (36 мин).
 Учения и практики излечения женщин,
 повышение уровня сексуальности и оргазмичности, интимные мышцы мужчины и
