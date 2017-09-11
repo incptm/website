@@ -17,6 +17,15 @@ description: |
 [Android](http://subscribeonandroid.com/feeds.soundcloud.com/users/soundcloud:users:310435414/sounds.rss).
 Если хотите в гости, пишите на [podcast@incptm.com](mailto:podcast@incptm.com).
 
+<img src="/images/2017/08/portuguese-woman.jpg" class="podcast-thumb"/>
+[#13: Мелинда и Лада о женском](/podcast/2017/13.html) (36 мин).
+Учения и практики излечения женщин,
+повышение уровня сексуальности и оргазмичности, интимные мышцы мужчины и
+наслаждение без эякуляции, и другое запретное.
+Участники: Мелинда Бреза (гость), Лада (ведущая).
+<br/>
+Записано: 8 сентября 2017.
+
 <img src="/images/2017/08/udnie.jpg" class="podcast-thumb"/>
 [#12: Чего хочет мужчина от женщины?](/podcast/2017/12.html) (74 мин).
 Чего хочет и ожидает мужчина от женщины и как женщина может
